@@ -1,0 +1,26 @@
+* Bagging is a special case of random forests under which case?
+
+When we choose a random predictor to grow a stump in the tree out of all p predictors, rather than a subset from the predictors.
+* What are the hyperparameters we can control for random forests?
+
+Number of data sets from the observation that we choose (B) and the number of predictors in the subset (m)
+
+* Suppose you have the following paired data of (x,y): (1,2), (1,5), (2,0). Which of the following are valid bootstrapped data sets? Why/why not?
+    1. (1,0), (1,2), (1,5)
+    2. (1,2), (2,0)
+    3. (1,2), (1,2), (1,5)
+
+1. Its invalid because (1,0) does not exist in the population/observations
+2. Valid because these elements exist in the population/observations
+3. Valid because these elements exist in the population/observations
+
+* For each of the above valid bootstapped data sets, which observations are out-of-bag (OOB)?
+
+2. OOB: (1,5)
+3. OOB: None
+
+* You make a random forest consisting of four trees. You obtain a new observation of predictors, and would like to predict the response. What would your prediction be in the following cases?
+Regression: your trees make the following four predictions: 1,1,3,3
+		PREDICTION = 2
+Classification: your trees make the following four predictions: “A”, “A”, “B”, “C”.
+		PREDICTION = “A”
