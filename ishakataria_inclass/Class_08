@@ -1,0 +1,12 @@
+1. Pros of hiring A are that there is greater chance of A’s productivity being equal to 75 with a confidence interval of 
+95% that his productivity will be between 72.5 to 77.5. But on the other hand, B has a lesser chance of productivity being 
+equal to 75. With a 95% confidence interval the productivity of B can range from 67.5 to 82.5 but these chances are much 
+lower due to the smaller density. A offers a 75 productivity with a reasonable confidence, but with lower confidence B can 
+offer higher productivity. The tradeoff is between being certain or getting more or even less with uncertainty so it depends 
+on what the business’ need is.
+
+2. Pros of A are that there are very high chances that his productivity is centered around 60, but for B, with lower 
+confidence, his productivity is centered around 80. 
+
+3. There are more than necessary variables taken into account hence the forecast distribution is skewed
+
