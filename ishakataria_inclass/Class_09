@@ -1,0 +1,12 @@
+1. For any observation where x1 < 7.5, classify it as 'A', else classify it as 'B'. Hence, the observation x1=6, 
+x2=10 will be classified as 'A'
+
+2. Margin size is 2 units
+
+3. Observations 6,7,8,9 and 10 will receive a penalty. Observations 6-10 are the support vectors
+
+4. Penalty on 6: 0.5/2, Penalty on 7: 0.5/2, Penalty on 8: 2.5/2, Penalty on 9: 3.5/2 ,Penalty on 10: 4.5/2, Total Penalty: 5.75
+
+5. If we increase the margin boundary even by 0.5 units, the penalty goes beyond 6 because the penalty on 6,7,8,9,10 will increase
+
+6. The data are separable, the support vectors would be 4,8 and 9 due to expansion of the slab.
